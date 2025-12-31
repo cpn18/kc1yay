@@ -6,8 +6,6 @@ Partial implementation based on:
 https://github.com/gqrx-sdr/gqrx/blob/master/resources/remote-control.txt
 """
 import socket
-import time
-from datetime import datetime
 
 class GQRX():
     """ Python Interface with GQRX """
@@ -19,7 +17,7 @@ class GQRX():
 
     def __del__(self):
         """ Close the connection """
-        self.close()
+        #self.close()
         self.client.close()
 
     def get_response(self):
@@ -33,7 +31,7 @@ class GQRX():
             return True
         if data == "RPRT 1":
             return False
-        raise ValueError
+        raise ValueError(data)
 
     def get_freq(self):
         """ Get Frequency """
@@ -121,26 +119,3 @@ class GQRX():
         cmd = "LOS\n"
         self.client.send(cmd.encode())
         return self.status()
-
-
-def scan(low_hz, high_hz, step_hz=1e3, threshold_db=-40, pause_sec=1):
-    """ Demo Code for Scanning """
-    gqrx = GQRX()
-    while True:
-        try:
-            freq = gqrx.get_freq()
-            freq += step_hz
-            if freq > high_hz or freq < low_hz:
-                freq = low_hz
-            gqrx.set_freq(freq)
-            st_dbfs = gqrx.get_signal_strength()
-            if st_dbfs > threshold_db:
-                print(datetime.now().isoformat(), freq, st_dbfs)
-                time.sleep(pause_sec)
-        except KeyboardInterrupt:
-            break
-
-if __name__ == "__main__":
-    scan(420e6, 450e6)  # 70cm
-    #scan(144e6, 148e6)  # 2m
-    #scan(220e6, 225e6)  # 1.25m
