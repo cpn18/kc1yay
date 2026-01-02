@@ -11,9 +11,10 @@ from datetime import datetime
 
 import gqrx
 
-def scan(low_hz, high_hz, step_hz=1e3, threshold_db=-40, dwell_sec=0.1, pause_sec=1):
+def scan(low_hz, high_hz, step_hz=1e3, threshold_db=-40, dwell_sec=0.1, pause_sec=1, demod='FM'):
     """ Demo Code for Scanning """
     mysdr = gqrx.GQRX()
+    mysdr.set_demod_mode(demod)
     while True:
         try:
             freq = mysdr.get_freq()
@@ -37,8 +38,8 @@ if __name__ == "__main__":
     elif sys.argv[1] == "1.25m":
         scan(220e6, 225e6)  # 1.25m
     elif sys.argv[1] == "fm":
-        scan(88.1e6, 107.9e6, step_hz=0.2e6, pause_sec=5)  # FM radio
+        scan(88.1e6, 107.9e6, step_hz=0.2e6, pause_sec=5, demod='WFM_ST')  # FM radio
     elif sys.argv[1] == "air":
-        scan(108e6, 137e6)  # FM radio
+        scan(108e6, 137e6)  # Air
     else:
         scan(int(sys.argv[1]), int(sys.argv[2]))

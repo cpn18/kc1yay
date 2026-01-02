@@ -13,7 +13,15 @@ class GQRX():
     def __init__(self, host='localhost', port=7356):
         """ Initialize a connection """
         self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.client.connect((host, port))
+        try:
+            self.client.connect((host, port))
+        except ConnectionRefusedError as ex:
+            print("Check RemoteControl Settings")
+            raise ex
+        # Get Demod Modes
+        cmd = "M ?\n"
+        self.client.send(cmd.encode())
+        self.demod_modes = self.get_response().split(" ")
 
     def __del__(self):
         """ Close the connection """
@@ -119,3 +127,9 @@ class GQRX():
         cmd = "LOS\n"
         self.client.send(cmd.encode())
         return self.status()
+
+if __name__ == "__main__":
+    mygqrx = GQRX()
+    mygqrx.set_freq(443.850e6)
+    mygqrx.set_demod_mode("FM")
+    print(mygqrx.demod_modes)
