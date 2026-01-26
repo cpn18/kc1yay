@@ -25,7 +25,6 @@ class GQRX():
 
     def __del__(self):
         """ Close the connection """
-        #self.close()
         self.client.close()
 
     def get_response(self):
@@ -72,8 +71,11 @@ class GQRX():
         data = self.get_response()
         return str(data)
 
-    def set_demod_mode(self,mode):
+    def set_demod_mode(self, mode):
         """ Set Demodulator Mode """
+        if mode not in self.demod_modes:
+            raise ValueError("Unsupported Demod Mode")
+
         cmd = "M %s\n" % mode
         self.client.send(cmd.encode())
         return self.status()
@@ -91,7 +93,7 @@ class GQRX():
         data = self.get_response()
         return float(data)
 
-    def set_squelch(self,dbfs):
+    def set_squelch(self, dbfs):
         """ Set Squelch Threshold """
         cmd = "L SQL %s\n" % dbfs
         self.client.send(cmd.encode())
@@ -104,7 +106,7 @@ class GQRX():
         data = self.get_response()
         return str(data)
 
-    def set_record(self,status):
+    def set_record(self, status):
         """ Set Recorder Status """
         cmd = "U RECORD %s\n" % status
         self.client.send(cmd.encode())
@@ -130,6 +132,7 @@ class GQRX():
 
 if __name__ == "__main__":
     mygqrx = GQRX()
+    print(mygqrx.demod_modes)
+
     mygqrx.set_freq(443.850e6)
     mygqrx.set_demod_mode("FM")
-    print(mygqrx.demod_modes)
