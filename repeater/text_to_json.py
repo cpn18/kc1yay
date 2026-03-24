@@ -22,13 +22,46 @@ def split_freq(freq):
     except:
         return freq[0], None
 
-def tone_to_float(tone):
+def decode_access(access_string):
     """ Convert tone to float """
-    try:
-        # TODO: this drops some data
-        return float(tone.split(' ')[-1])
-    except:
-        return None
+    access = {}
+    idx = 0
+    symbols = access_string.split(' ')
+    while idx < len(symbols):
+        if symbols[idx] in ["CC", "NAC", "RAN"]:
+            access[symbols[idx]] = symbols[idx+1]
+            idx += 1
+        elif symbols[idx] == "—":
+            pass
+        else:
+            try:
+                access["tone"] = float(symbols[idx])
+            except:
+                print(f"WARNING: {symbols[idx]}")
+        idx += 1
+    return access
+
+def extract_modes(mode_string):
+    """ Extract commom modes """
+    modes = []
+    features = []
+    for mode in ["FM", "DMR", "D-Star", "M17", "NXDN", "P-25", "Fusion", "TETRA"]:
+        if mode in mode_string:
+            modes.append(mode)
+    for feature in ["EchoLink", "AllStar", "IRLP", "WIRES-X", "ATV"]:
+        if feature in mode_string:
+            features.append(feature)
+    return modes, features
+
+def decode_status(status_string):
+    """ Decode Unicode """
+    if status_string == "🟢":
+        return "Up"
+    if status_string == "🔴":
+        return "Down"
+    if status_string == "⚪":
+        return "Unknown"
+    return status_string
 
 def main(filename):
     repeaters = {
@@ -41,17 +74,19 @@ def main(filename):
             line = line.split('\t')
             #print(line)
             freq, offset = split_freq(line[1])
+            modes, features = extract_modes(line[8])
             obj = {
                 "freq_mHz": freq,
                 "offset": offset,
-                "tone": tone_to_float(line[2]),
+                "access": decode_access(line[2]),
                 "state": line[3],
                 "location": line[4],
                 "county": line[5],
                 "callsign": line[6],
                 "use": line[7],
-                "modes": line[8],
-                "status": line[9].strip()
+                "modes": modes,
+                "features": features,
+                "status": decode_status(line[9].strip())
             }
             #print(obj)
             repeaters['data'].append(obj)

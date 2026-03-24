@@ -1,0 +1,123 @@
+	145.1500 -	127.3	NH	Kensington	Rockingham	W1WQM	OPEN	FM	🟢
+	145.3100 -	88.5	NH	Moultonborough	Carroll	N1TZE	OPEN	FM	🟢
+	145.3300 -	100.0	NH	Hanover, Moose Mtn	Grafton	W1FN	OPEN	FMEchoLink	🟢
+	145.3700 -	114.8	NH	Whitefield	Coos	N1PCE	OPEN	FMAllStar	🟢
+	145.4500 -	100.0	NH	North Conway, Mt Cranmore	Carroll	W1MWV	OPEN	FMEchoLinkFusion	🟢
+	146.6100 -	100.0	NH	Bow	Merrimack	K1DED	OPEN	FM	🟢
+	146.6400 -	110.9	NH	Hanover	Grafton	W1UWS	OPEN	FM	⚪
+	146.6550 -	100.0	NH	Gorham, Mt Washington	Coos	W1NH	OPEN	FM	🟢
+	146.6700 -	123.0	NH	Sanbornton, Steele Hill Resorts	Belknap	W1JY	OPEN	FMFusion	🟢
+	146.6850 -	100.0	NH	Berlin, Cates Hill	Coos	W1COS	OPEN	FM	🟢
+	146.6850 -	100.0	NH	Bedford	Hillsborough	N1QC	OPEN	FMFusion	🟢
+	146.7000 -	88.5	NH	Northwood	Rockingham	K1JEK	OPEN	FMEchoLinkFusion	🟢
+	146.7150 -	100.0	NH	Clarksville, Ben Young Hill	Coos	W1COS	OPEN	FM	🟢
+	146.7150 -	123.0	NH	Alstead	Cheshire	K1JWM	OPEN	FMEchoLink	🟢
+	146.7300 -	88.5	NH	Hollis	Hillsborough	N1IMO	OPEN	FMEchoLink	🟢
+	146.7450 -	114.8	NH	Derry	Rockingham	WT1M	OPEN	FMEchoLink	🟢
+	146.7750 -	123.0	NH	Rindge	Cheshire	K1CRR	OPEN	FM	🟢
+	146.7900 -	88.5	NH	Pittsfield	Merrimack	N1IMO	OPEN	FMEchoLink	🟢
+	146.8050 -	100.0	NH	Keene	Cheshire	K1TQY	OPEN	FMP-25	🟢
+	146.8050 -	103.5	NH	Farmington, Blue Job Mountain	Strafford	W1BST	OPEN	FM	🟢
+	146.8500 -	85.4	NH	Derry	Rockingham	K1CA	OPEN	FMEchoLink	🟢
+	146.8650 -	88.5	NH	Wolfeboro	Carroll	N1FCC	OPEN	FM	🟢
+	146.8950 -	CC 0 100.0	NH	Henniker, Pats Peak	Merrimack	K1BKE	OPEN	FMDMRD-STAR	🟢
+	146.9100 -	88.5	NH	Chester	Rockingham	N1FST	OPEN	FMFusionWIRES-X	🟢
+	146.9250 -	118.8	NH	Charlestown	Sullivan	NX1DX	OPEN	FM	🟢
+	146.9400 -	114.8	NH	Pembroke	Merrimack	W1ALE	OPEN	FMFusion	🟢
+	146.9850 -	123.0	NH	Gilford, Gunstock Mtn	Belknap	N1LT	OPEN	FMAllStarEchoLink	🟢
+	147.0000 -	100.0	NH	Deerfield, Saddleback Mtn	Rockingham	W1SRA	OPEN	FM	🟢
+	147.0300 +	88.5	NH	Ossipee	Carroll	W1BST	OPEN	FMEchoLink	🟢
+	147.0300 +	100.0	NH	Keene, WEKW Tower	Cheshire	K1PH	OPEN	FMFusionWIRES-X	🟢
+	147.0450 +	100.0	NH	Nashua	Hillsborough	N1IMO	OPEN	FM	🟢
+	147.0600 +	123.0	NH	Francestown	Hillsborough	K1JWM	OPEN	FMEchoLink	⚪
+	147.1050 +	CC 0 88.5	NH	Hudson	Hillsborough	NE1B	OPEN	FMDMR	🟢
+	147.1050 +	100.0	NH	Bethlehem, Mt Agassiz	Grafton	W1COS	OPEN	FM	🟢
+	147.1350 +	100.0	NH	Goffstown	Hillsborough	W1AKS	OPEN	FMEchoLinkFusion	🟢
+	147.1650 +	136.5	NH	Salem	Rockingham	NY1Z	OPEN	FM	🟢
+	147.1800 +	110.9	NH	Unity	Sullivan	W1UWS	OPEN	FM	⚪
+	147.1950 +	100.0	NH	Plaistow	Rockingham	WB2MJG	OPEN	FM	⚪
+	147.1950 +	123.0	NH	Richmond	Cheshire	K1JWM	OPEN	FMEchoLink	⚪
+	147.2100 +	107.2	NH	Derry	Rockingham	KC2LT	OPEN	FM	🟢
+	147.2250 +	100.0	NH	Pembroke	Merrimack	KA1OKQ	OPEN	FMFusion	🟢
+	147.2400 +	88.5	NH	Gilford	Belknap	KC1DNA	OPEN	FMFusion	🟢
+	147.2550 +	127.3	NH	Wilton	Hillsborough	N1IMO	OPEN	FM	🟢
+	147.2550 +	156.7	NH	Moultonborough	Carroll	N1EMS	OPEN	FM	⚪
+	147.2850 +	103.5	NH	Claremont	Sullivan	W1FN	OPEN	FM	🟢
+	147.3000 +	123.0	NH	Franklin, Veterans Mem Rec Area	Merrimack	W1JY	OPEN	FM	🟢
+	147.3300 +	141.3	NH	Manchester	Hillsborough	N1SM	OPEN	FM	🟢
+	147.3600 +	123.0	NH	Gilsum, Webster Hill	Cheshire	N1IMO	OPEN	FM	🟢
+	147.3750 +	88.5	NH	New Boston, Chestnut Hill	Hillsborough	W1VTP	OPEN	FM	🟢
+	147.3900 +	123.0	NH	Moultonborough, Red Hill	Carroll	W1JY	OPEN	FMAllStarEchoLink	🟢
+	223.9200 -	100.0	NH	Rindge	Cheshire	WA1HOG	OPEN	FMEchoLink	🟢
+	224.0200 -	103.5	NH	New Durham	Strafford	W1WU	OPEN	FM	🟢
+	224.0600 -	97.4	NH	Claremont	Sullivan	WX1NH	OPEN	FM	🟢
+	224.2000 -	—	NH	Chester	Rockingham	K1OX	OPEN	FM	🟢
+	224.2800 -	88.5	NH	Nashua	Hillsborough	N1IMO	OPEN	FM	🟢
+	224.4400 -	88.5	NH	Pembroke	Merrimack	K1KZP	OPEN	FM	🟢
+	224.4600 -	85.4	NH	Derry	Rockingham	K1CA	OPEN	FM	🟢
+	224.5000 -	88.5	NH	Goffstown	Hillsborough	N1IMO	OPEN	FMEchoLink	🟢
+	224.5400 -	103.5	NH	Pittsfield	Merrimack	N1AKE	OPEN	FM	⚪
+	224.6000 -	123.0	NH	Ossipee	Carroll	W1WU	OPEN	FM	⚪
+	224.8000 -	123.0	NH	Franklin, Veterans Mem Rec Area	Merrimack	W1JY	OPEN	FM	🟢
+	224.8400 -	136.5	NH	Milford	Hillsborough	K3RQ	OPEN	FM	🟢
+	224.9800 -	123.0	NH	Surry	Cheshire	KB1HPK	OPEN	FM	🟢
+	441.3000 +	107.2	NH	Derry	Rockingham	KC2LT	OPEN	FM	🟢
+	441.3500 +	88.5	NH	East Kingston	Rockingham	KC1EWP	OPEN	FMFusion	⚪
+	441.7000 +	100.0	NH	Dublin, Snow Hill	Cheshire	WQ2H	OPEN	FMFusion	🟢
+	441.9000 +	88.5	NH	Pembroke	Merrimack	N1LHP	OPEN	FM	🟢
+	441.9500 +	127.3	NH	Portsmouth	Rockingham	WR1U	OPEN	FMFusionWIRES-X	🟢
+	442.0000 +	100.0	NH	Londonderry	Hillsborough	K1DED	OPEN	FMEchoLink	🟢
+	442.1000 +	100.0	NH	Ossipee	Carroll	N1EUN	OPEN	FMFusion	🟢
+	442.1500 +	88.5	NH	Pittsfield	Merrimack	N1IMO	OPEN	FMEchoLink	🟢
+	442.3500 +	88.5	NH	Sunapee	Sullivan	W1VN	OPEN	FM	⚪
+	442.4000 +	100.0	NH	Henniker	Merrimack	K1BKE	OPEN	FM	🟢
+	442.5500 +	88.5	NH	Chester	Rockingham	K1JC	OPEN	FM	🟢
+	442.9500 +	141.3	NH	Bethlehem, Mt Agassiz	Grafton	N1PCE	OPEN	FM	🟢
+	443.1500 +	NAC D1E 71.9	NH	New Ipswich	Hillsborough	N3LEE	OPEN	FMP-25	🟢
+	443.3500 +	110.9	NH	Pack Monadnock	Hillsborough	KA1OKQ	OPEN	FM	⚪
+	443.4000 +	186.2	NH	Goffstown	Hillsborough	W1AKS	OPEN	FM	🟢
+	443.4500 +	88.5	NH	Kensington, Weymouth Hill	Rockingham	KB1VTL	OPEN	FMFusion	🟢
+	443.5000 +	88.5	NH	Hollis	Hillsborough	N1IMO	OPEN	FM	🟢
+	443.5000 +	131.8	NH	West Lebanon	Grafton	KA1UAG	OPEN	FM	⚪
+	443.5500 +	136.5	NH	Hanover	Grafton	W1FN	OPEN	FMEchoLink	🟢
+	443.6500 +	131.8	NH	Pembroke	Merrimack	N1IHF	OPEN	FM	🟢
+	443.7500 +	97.4	NH	Mason	Hillsborough	K1TLV	CLOSED	FMFusion	🟢
+	443.8000 +	141.3	NH	Keene, WEKW Tower	Cheshire	WA1ZYX	OPEN	FM	🟢
+	443.8500 +	NAC 353 100.0	NH	Epsom, Fort Mtn	Merrimack	W1ASS	OPEN	FMP-25	🟢
+	443.9500 +	91.5	NH	Stratford	Coos	KC1FZQ	OPEN	FM	🟢
+	443.9500 +	103.5	NH	Claremont	Sullivan	KU1R	OPEN	FM	⚪
+	444.0500 +	88.5	NH	Alton	Belknap	K1JEK	OPEN	FM	🟢
+	444.2000 +	186.2	NH	Goffstown, Mt Uncanoonic	Hillsborough	NN1PA	OPEN	FMFusionWIRES-X	🟢
+	444.2500 +	107.2	NH	Hollis	Hillsborough	N1IMO	OPEN	FM	🟢
+	444.4000 +	100.0	NH	Kensington, Weymouth Hill	Rockingham	W1WQM	OPEN	FM	🟢
+	444.7000 +	123.0	NH	Gilford, Mt Rowe	Belknap	W1BST	OPEN	FM	🟢
+	444.7500 +	123.0	NH	New Durham	Strafford	W1WU	OPEN	FM	🟢
+	444.8000 +	131.8	NH	Nashua	Hillsborough	N1IMO	OPEN	FM	🟢
+	444.8500 +	141.3	NH	Lancaster	Coos	KC1SR	OPEN	FMAllStar	🟢
+	444.9000 +	CC 8 131.8	NH	Enfield	Grafton	KA1UAG	OPEN	FMDMR	🟢
+	444.9500 +	88.5	NH	Hanover	Grafton	W1ET	OPEN	FMIRLP	🟢
+	446.3750 -	88.5	NH	Derry	Rockingham	KB1TIX	OPEN	FM	🟢
+	446.4250 -	CC 5	NH	Acworth	Sullivan	WX1NH	OPEN	FMDMR	🟢
+	446.4750 -	88.5	NH	Center Barnstead	Belknap	K1DED	OPEN	FMEchoLink	🟢
+	446.8250 -	97.4	NH	Ossipee	Carroll	W1WU	OPEN	FM	🟢
+	446.8750 -	100.0	NH	North Conway	Carroll	W1MWV	OPEN	FMFusion	🟢
+	447.1250 -	88.5	NH	Mont Vernon	Hillsborough	WA1HCO	OPEN	FMAllStar	🟢
+	447.3250 -	88.5	NH	Bow, Quimby Mtn	Merrimack	KA1SU	OPEN	FM	🟢
+	447.3750 -	85.4	NH	Derry	Rockingham	K1QVC	OPEN	FMD-STAR	🟢
+	447.4250 -	141.3	NH	Peterborough, Temple Mtn	Hillsborough	WA1ZYX	OPEN	FM	🟢
+	447.4750 -	CC 5 107.2	NH	Newmarket, Four Corners	Rockingham	KC1AWV	OPEN	FMDMRM17	🟢
+	448.2250 -	88.5	NH	Berlin, Mt Washington	Coos	WA1PBJ	OPEN	FM	🟢
+	448.4250 -	88.5	NH	Mont Vernon	Hillsborough	K3RQ	OPEN	FM	🟢
+	448.5250 -	123.0	NH	Greenfield	Hillsborough	KA1BBG	OPEN	FM	⚪
+	448.6750 -	—	NH	Bow, Bow Bog Hill	Merrimack	KB1IIT	OPEN	FM	🟢
+	448.7750 -	CC 2	NH	North Conway	Carroll	W1MWV	OPEN	FMDMRFusion	⚪
+	448.8250 -	131.8	NH	Pelham	Hillsborough	N1CML	OPEN	FMFusionWIRES-X	🟢
+	448.9750 -	141.3	NH	Gorham, Mt Washington	Coos	W1NH	OPEN	FM	🟢
+	449.2250 -	103.5	NH	New Boston	Hillsborough	W1NAZ	OPEN	FM	🟢
+	449.2750 -	100.0	NH	Greenville	Hillsborough	N3LEE	OPEN	FM	🟢
+	449.3250 -	88.5	NH	Loudon	Merrimack	W1FKF	OPEN	FM	🟢
+	449.3750 -	88.5	NH	Peterborough, Pack Monadnock Mtn	Hillsborough	N1IMO	OPEN	FM	🟢
+	449.4500 -	123.0	NH	Deerfield, WENH Tower	Rockingham	WA1ZYX	OPEN	FM	🟢
+	449.6250 -	85.4	NH	Derry	Rockingham	K1CA	OPEN	FM	🟢
+	449.7750 -	—	NH	Salem	Rockingham	NY1Z	OPEN	FM	🟢
+	449.8250 -	82.5	NH	Whitefield	Coos	N1PCE	OPEN	FMAllStar	🟢
