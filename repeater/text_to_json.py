@@ -8,6 +8,7 @@ https://www.repeaterbook.com/repeaters/msResult.php?state_id%5B%5D=33&band%5B%5D
 import sys
 import json
 import os
+from datetime import datetime
 
 # Example input
 # ['', '449.8250 -', '82.5', 'NH', 'Whitefield', 'Coos', 'N1PCE', 'OPEN', 'FMAllStar', '🟢\n']
@@ -32,6 +33,7 @@ def tone_to_float(tone):
 def main(filename):
     repeaters = {
         "source": filename,
+        "date": datetime.now().isoformat(),
         "data": []
     }
     with open(filename,'r') as infile:
