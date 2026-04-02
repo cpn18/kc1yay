@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 """
-GQRX API
-
-Partial implementation based on:
-
-https://github.com/gqrx-sdr/gqrx/blob/master/resources/remote-control.txt
+Scanner using GQRX API
 """
 import sys
 import json
@@ -16,8 +12,13 @@ import gqrx
 def scan_list(filename, step_hz=1e3, threshold_db=-40, dwell_sec=0.1, pause_sec=1, demod='FM'):
     """ Demo Code for Scanning """
     mysdr = gqrx.GQRX()
-    mysdr.set_demod_mode(demod)
 
+    # Set up the radio
+    mysdr.set_demod_mode(demod)
+    mysdr.set_squelch(threshold_db)
+
+
+    # Read the station list
     with open(filename) as infile:
         stations = json.loads(infile.read())
 
@@ -27,15 +28,25 @@ def scan_list(filename, step_hz=1e3, threshold_db=-40, dwell_sec=0.1, pause_sec=
                 if demod not in station['modes']:
                     continue
 
+                # Update from radio
+                squelch = mysdr.get_squelch()
+                if threshold_db != squelch:
+                    threshold_db = squelch
+                    print(f"Squelch = {squelch:0.1f}")
+
+                # Tune the radio
                 freq = station['freq_mHz']*1e6
                 mysdr.set_freq(freq)
                 time.sleep(dwell_sec)
+
+                # Check signal strength
                 st_dbfs = mysdr.get_signal_strength()
                 if st_dbfs > threshold_db:
-                    print(datetime.now().isoformat(), freq, st_dbfs, station['location'], station['callsign'])
+                    print("%s %0.6f %0.1f dB %s %s" % (datetime.now().isoformat(), freq/1e6, st_dbfs, station['location'], station['callsign']))
                     time.sleep(pause_sec)
+
         except KeyboardInterrupt:
             break
 
 if __name__ == "__main__":
-    scan_list(sys.argv[1], dwell_sec=0.5, pause_sec=10)
+    scan_list(sys.argv[1], threshold_db=-40.0, dwell_sec=0.5, pause_sec=10)
