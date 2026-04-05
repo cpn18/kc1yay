@@ -2,6 +2,7 @@
 """
 Scanner using GQRX API
 """
+import os
 import sys
 import json
 import time
@@ -17,15 +18,23 @@ def scan_list(filename, step_hz=1e3, threshold_db=-40, dwell_sec=0.1, pause_sec=
     mysdr.set_demod_mode(demod)
     mysdr.set_squelch(threshold_db)
 
-
-    # Read the station list
-    with open(filename) as infile:
-        stations = json.loads(infile.read())
+    last_load = 0
 
     while True:
+        mtime = os.stat(filename).st_mtime
+        if mtime > last_load:
+            print("Reading file")
+            # Read the station list
+            with open(filename) as infile:
+                stations = json.loads(infile.read())
+            last_load = mtime
+
         try:
             for station in stations['data']:
                 if demod not in station['modes']:
+                    continue
+
+                if station.get('scan', True) is False:
                     continue
 
                 # Update from radio
