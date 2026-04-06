@@ -14,7 +14,7 @@ def write_bookmarks(filename, tags, stations):
         outfile.write("\n")
         outfile.write("# Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags\n")
         outfile.write("   224440000; K1KZP                    ; Narrow FM           ;      10000; 220MHz\n")
-        for station in stations['data']:
+        for station in stations['stations']:
             outfile.write("%12s; %-25s; %-20s; %10s; %s\n" % (
                 int(station['freq_mHz'] * 1e6),
                 station['callsign'],

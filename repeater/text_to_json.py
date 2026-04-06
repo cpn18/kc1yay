@@ -67,7 +67,7 @@ def main(filename):
     repeaters = {
         "source": filename,
         "date": datetime.now().isoformat(),
-        "data": []
+        "stations": []
     }
     with open(filename,'r') as infile:
         for line in infile:
@@ -89,7 +89,7 @@ def main(filename):
                 "status": decode_status(line[9].strip())
             }
             #print(obj)
-            repeaters['data'].append(obj)
+            repeaters['stations'].append(obj)
 
     outfile, _ext = os.path.splitext(filename)
     outfile += ".json"

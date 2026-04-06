@@ -1,0 +1,2189 @@
+{
+  "source": "nh_repeaters.txt",
+  "date": "2026-03-24T19:30:12.161733",
+  "stations": [
+    {
+      "freq_mHz": 145.15,
+      "offset": "-",
+      "access": {
+        "tone": 127.3
+      },
+      "state": "NH",
+      "location": "Kensington",
+      "county": "Rockingham",
+      "callsign": "W1WQM",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 145.31,
+      "offset": "-",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Moultonborough",
+      "county": "Carroll",
+      "callsign": "N1TZE",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 145.33,
+      "offset": "-",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Hanover, Moose Mtn",
+      "county": "Grafton",
+      "callsign": "W1FN",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 145.37,
+      "offset": "-",
+      "access": {
+        "tone": 114.8
+      },
+      "state": "NH",
+      "location": "Whitefield",
+      "county": "Coos",
+      "callsign": "N1PCE",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "AllStar"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 145.45,
+      "offset": "-",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "North Conway, Mt Cranmore",
+      "county": "Carroll",
+      "callsign": "W1MWV",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.61,
+      "offset": "-",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Bow",
+      "county": "Merrimack",
+      "callsign": "K1DED",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.64,
+      "offset": "-",
+      "access": {
+        "tone": 110.9
+      },
+      "state": "NH",
+      "location": "Hanover",
+      "county": "Grafton",
+      "callsign": "W1UWS",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Unknown"
+    },
+    {
+      "freq_mHz": 146.655,
+      "offset": "-",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Gorham, Mt Washington",
+      "county": "Coos",
+      "callsign": "W1NH",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.67,
+      "offset": "-",
+      "access": {
+        "tone": 123.0
+      },
+      "state": "NH",
+      "location": "Sanbornton, Steele Hill Resorts",
+      "county": "Belknap",
+      "callsign": "W1JY",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.685,
+      "offset": "-",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Berlin, Cates Hill",
+      "county": "Coos",
+      "callsign": "W1COS",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.685,
+      "offset": "-",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Bedford",
+      "county": "Hillsborough",
+      "callsign": "N1QC",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.7,
+      "offset": "-",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Northwood",
+      "county": "Rockingham",
+      "callsign": "K1JEK",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.715,
+      "offset": "-",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Clarksville, Ben Young Hill",
+      "county": "Coos",
+      "callsign": "W1COS",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.715,
+      "offset": "-",
+      "access": {
+        "tone": 123.0
+      },
+      "state": "NH",
+      "location": "Alstead",
+      "county": "Cheshire",
+      "callsign": "K1JWM",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.73,
+      "offset": "-",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Hollis",
+      "county": "Hillsborough",
+      "callsign": "N1IMO",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.745,
+      "offset": "-",
+      "access": {
+        "tone": 114.8
+      },
+      "state": "NH",
+      "location": "Derry",
+      "county": "Rockingham",
+      "callsign": "WT1M",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.775,
+      "offset": "-",
+      "access": {
+        "tone": 123.0
+      },
+      "state": "NH",
+      "location": "Rindge",
+      "county": "Cheshire",
+      "callsign": "K1CRR",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.79,
+      "offset": "-",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Pittsfield",
+      "county": "Merrimack",
+      "callsign": "N1IMO",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.805,
+      "offset": "-",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Keene",
+      "county": "Cheshire",
+      "callsign": "K1TQY",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "P-25"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.805,
+      "offset": "-",
+      "access": {
+        "tone": 103.5
+      },
+      "state": "NH",
+      "location": "Farmington, Blue Job Mountain",
+      "county": "Strafford",
+      "callsign": "W1BST",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.85,
+      "offset": "-",
+      "access": {
+        "tone": 85.4
+      },
+      "state": "NH",
+      "location": "Derry",
+      "county": "Rockingham",
+      "callsign": "K1CA",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.865,
+      "offset": "-",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Wolfeboro",
+      "county": "Carroll",
+      "callsign": "N1FCC",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.895,
+      "offset": "-",
+      "access": {
+        "CC": "0",
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Henniker, Pats Peak",
+      "county": "Merrimack",
+      "callsign": "K1BKE",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "DMR"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.91,
+      "offset": "-",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Chester",
+      "county": "Rockingham",
+      "callsign": "N1FST",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [
+        "WIRES-X"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.925,
+      "offset": "-",
+      "access": {
+        "tone": 118.8
+      },
+      "state": "NH",
+      "location": "Charlestown",
+      "county": "Sullivan",
+      "callsign": "NX1DX",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.94,
+      "offset": "-",
+      "access": {
+        "tone": 114.8
+      },
+      "state": "NH",
+      "location": "Pembroke",
+      "county": "Merrimack",
+      "callsign": "W1ALE",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 146.985,
+      "offset": "-",
+      "access": {
+        "tone": 123.0
+      },
+      "state": "NH",
+      "location": "Gilford, Gunstock Mtn",
+      "county": "Belknap",
+      "callsign": "N1LT",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "EchoLink",
+        "AllStar"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.0,
+      "offset": "-",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Deerfield, Saddleback Mtn",
+      "county": "Rockingham",
+      "callsign": "W1SRA",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.03,
+      "offset": "+",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Ossipee",
+      "county": "Carroll",
+      "callsign": "W1BST",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.03,
+      "offset": "+",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Keene, WEKW Tower",
+      "county": "Cheshire",
+      "callsign": "K1PH",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [
+        "WIRES-X"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.045,
+      "offset": "+",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Nashua",
+      "county": "Hillsborough",
+      "callsign": "N1IMO",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.06,
+      "offset": "+",
+      "access": {
+        "tone": 123.0
+      },
+      "state": "NH",
+      "location": "Francestown",
+      "county": "Hillsborough",
+      "callsign": "K1JWM",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Unknown"
+    },
+    {
+      "freq_mHz": 147.105,
+      "offset": "+",
+      "access": {
+        "CC": "0",
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Hudson",
+      "county": "Hillsborough",
+      "callsign": "NE1B",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "DMR"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.105,
+      "offset": "+",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Bethlehem, Mt Agassiz",
+      "county": "Grafton",
+      "callsign": "W1COS",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.135,
+      "offset": "+",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Goffstown",
+      "county": "Hillsborough",
+      "callsign": "W1AKS",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.165,
+      "offset": "+",
+      "access": {
+        "tone": 136.5
+      },
+      "state": "NH",
+      "location": "Salem",
+      "county": "Rockingham",
+      "callsign": "NY1Z",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.18,
+      "offset": "+",
+      "access": {
+        "tone": 110.9
+      },
+      "state": "NH",
+      "location": "Unity",
+      "county": "Sullivan",
+      "callsign": "W1UWS",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Unknown"
+    },
+    {
+      "freq_mHz": 147.195,
+      "offset": "+",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Plaistow",
+      "county": "Rockingham",
+      "callsign": "WB2MJG",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Unknown"
+    },
+    {
+      "freq_mHz": 147.195,
+      "offset": "+",
+      "access": {
+        "tone": 123.0
+      },
+      "state": "NH",
+      "location": "Richmond",
+      "county": "Cheshire",
+      "callsign": "K1JWM",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Unknown"
+    },
+    {
+      "freq_mHz": 147.21,
+      "offset": "+",
+      "access": {
+        "tone": 107.2
+      },
+      "state": "NH",
+      "location": "Derry",
+      "county": "Rockingham",
+      "callsign": "KC2LT",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.225,
+      "offset": "+",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Pembroke",
+      "county": "Merrimack",
+      "callsign": "KA1OKQ",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.24,
+      "offset": "+",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Gilford",
+      "county": "Belknap",
+      "callsign": "KC1DNA",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.255,
+      "offset": "+",
+      "access": {
+        "tone": 127.3
+      },
+      "state": "NH",
+      "location": "Wilton",
+      "county": "Hillsborough",
+      "callsign": "N1IMO",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.255,
+      "offset": "+",
+      "access": {
+        "tone": 156.7
+      },
+      "state": "NH",
+      "location": "Moultonborough",
+      "county": "Carroll",
+      "callsign": "N1EMS",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Unknown"
+    },
+    {
+      "freq_mHz": 147.285,
+      "offset": "+",
+      "access": {
+        "tone": 103.5
+      },
+      "state": "NH",
+      "location": "Claremont",
+      "county": "Sullivan",
+      "callsign": "W1FN",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.3,
+      "offset": "+",
+      "access": {
+        "tone": 123.0
+      },
+      "state": "NH",
+      "location": "Franklin, Veterans Mem Rec Area",
+      "county": "Merrimack",
+      "callsign": "W1JY",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.33,
+      "offset": "+",
+      "access": {
+        "tone": 141.3
+      },
+      "state": "NH",
+      "location": "Manchester",
+      "county": "Hillsborough",
+      "callsign": "N1SM",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.36,
+      "offset": "+",
+      "access": {
+        "tone": 123.0
+      },
+      "state": "NH",
+      "location": "Gilsum, Webster Hill",
+      "county": "Cheshire",
+      "callsign": "N1IMO",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.375,
+      "offset": "+",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "New Boston, Chestnut Hill",
+      "county": "Hillsborough",
+      "callsign": "W1VTP",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 147.39,
+      "offset": "+",
+      "access": {
+        "tone": 123.0
+      },
+      "state": "NH",
+      "location": "Moultonborough, Red Hill",
+      "county": "Carroll",
+      "callsign": "W1JY",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "EchoLink",
+        "AllStar"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 223.92,
+      "offset": "-",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Rindge",
+      "county": "Cheshire",
+      "callsign": "WA1HOG",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 224.02,
+      "offset": "-",
+      "access": {
+        "tone": 103.5
+      },
+      "state": "NH",
+      "location": "New Durham",
+      "county": "Strafford",
+      "callsign": "W1WU",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 224.06,
+      "offset": "-",
+      "access": {
+        "tone": 97.4
+      },
+      "state": "NH",
+      "location": "Claremont",
+      "county": "Sullivan",
+      "callsign": "WX1NH",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 224.2,
+      "offset": "-",
+      "access": {},
+      "state": "NH",
+      "location": "Chester",
+      "county": "Rockingham",
+      "callsign": "K1OX",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 224.28,
+      "offset": "-",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Nashua",
+      "county": "Hillsborough",
+      "callsign": "N1IMO",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 224.44,
+      "offset": "-",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Pembroke",
+      "county": "Merrimack",
+      "callsign": "K1KZP",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 224.46,
+      "offset": "-",
+      "access": {
+        "tone": 85.4
+      },
+      "state": "NH",
+      "location": "Derry",
+      "county": "Rockingham",
+      "callsign": "K1CA",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 224.5,
+      "offset": "-",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Goffstown",
+      "county": "Hillsborough",
+      "callsign": "N1IMO",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 224.54,
+      "offset": "-",
+      "access": {
+        "tone": 103.5
+      },
+      "state": "NH",
+      "location": "Pittsfield",
+      "county": "Merrimack",
+      "callsign": "N1AKE",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Unknown"
+    },
+    {
+      "freq_mHz": 224.6,
+      "offset": "-",
+      "access": {
+        "tone": 123.0
+      },
+      "state": "NH",
+      "location": "Ossipee",
+      "county": "Carroll",
+      "callsign": "W1WU",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Unknown"
+    },
+    {
+      "freq_mHz": 224.8,
+      "offset": "-",
+      "access": {
+        "tone": 123.0
+      },
+      "state": "NH",
+      "location": "Franklin, Veterans Mem Rec Area",
+      "county": "Merrimack",
+      "callsign": "W1JY",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 224.84,
+      "offset": "-",
+      "access": {
+        "tone": 136.5
+      },
+      "state": "NH",
+      "location": "Milford",
+      "county": "Hillsborough",
+      "callsign": "K3RQ",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 224.98,
+      "offset": "-",
+      "access": {
+        "tone": 123.0
+      },
+      "state": "NH",
+      "location": "Surry",
+      "county": "Cheshire",
+      "callsign": "KB1HPK",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 441.3,
+      "offset": "+",
+      "access": {
+        "tone": 107.2
+      },
+      "state": "NH",
+      "location": "Derry",
+      "county": "Rockingham",
+      "callsign": "KC2LT",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 441.35,
+      "offset": "+",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "East Kingston",
+      "county": "Rockingham",
+      "callsign": "KC1EWP",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [],
+      "status": "Unknown"
+    },
+    {
+      "freq_mHz": 441.7,
+      "offset": "+",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Dublin, Snow Hill",
+      "county": "Cheshire",
+      "callsign": "WQ2H",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 441.9,
+      "offset": "+",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Pembroke",
+      "county": "Merrimack",
+      "callsign": "N1LHP",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 441.95,
+      "offset": "+",
+      "access": {
+        "tone": 127.3
+      },
+      "state": "NH",
+      "location": "Portsmouth",
+      "county": "Rockingham",
+      "callsign": "WR1U",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [
+        "WIRES-X"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 442.0,
+      "offset": "+",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Londonderry",
+      "county": "Hillsborough",
+      "callsign": "K1DED",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 442.1,
+      "offset": "+",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Ossipee",
+      "county": "Carroll",
+      "callsign": "N1EUN",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 442.15,
+      "offset": "+",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Pittsfield",
+      "county": "Merrimack",
+      "callsign": "N1IMO",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 442.35,
+      "offset": "+",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Sunapee",
+      "county": "Sullivan",
+      "callsign": "W1VN",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Unknown"
+    },
+    {
+      "freq_mHz": 442.4,
+      "offset": "+",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Henniker",
+      "county": "Merrimack",
+      "callsign": "K1BKE",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 442.55,
+      "offset": "+",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Chester",
+      "county": "Rockingham",
+      "callsign": "K1JC",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 442.95,
+      "offset": "+",
+      "access": {
+        "tone": 141.3
+      },
+      "state": "NH",
+      "location": "Bethlehem, Mt Agassiz",
+      "county": "Grafton",
+      "callsign": "N1PCE",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 443.15,
+      "offset": "+",
+      "access": {
+        "NAC": "D1E",
+        "tone": 71.9
+      },
+      "state": "NH",
+      "location": "New Ipswich",
+      "county": "Hillsborough",
+      "callsign": "N3LEE",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "P-25"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 443.35,
+      "offset": "+",
+      "access": {
+        "tone": 110.9
+      },
+      "state": "NH",
+      "location": "Pack Monadnock",
+      "county": "Hillsborough",
+      "callsign": "KA1OKQ",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Unknown"
+    },
+    {
+      "freq_mHz": 443.4,
+      "offset": "+",
+      "access": {
+        "tone": 186.2
+      },
+      "state": "NH",
+      "location": "Goffstown",
+      "county": "Hillsborough",
+      "callsign": "W1AKS",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 443.45,
+      "offset": "+",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Kensington, Weymouth Hill",
+      "county": "Rockingham",
+      "callsign": "KB1VTL",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 443.5,
+      "offset": "+",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Hollis",
+      "county": "Hillsborough",
+      "callsign": "N1IMO",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 443.5,
+      "offset": "+",
+      "access": {
+        "tone": 131.8
+      },
+      "state": "NH",
+      "location": "West Lebanon",
+      "county": "Grafton",
+      "callsign": "KA1UAG",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Unknown"
+    },
+    {
+      "freq_mHz": 443.55,
+      "offset": "+",
+      "access": {
+        "tone": 136.5
+      },
+      "state": "NH",
+      "location": "Hanover",
+      "county": "Grafton",
+      "callsign": "W1FN",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 443.65,
+      "offset": "+",
+      "access": {
+        "tone": 131.8
+      },
+      "state": "NH",
+      "location": "Pembroke",
+      "county": "Merrimack",
+      "callsign": "N1IHF",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 443.75,
+      "offset": "+",
+      "access": {
+        "tone": 97.4
+      },
+      "state": "NH",
+      "location": "Mason",
+      "county": "Hillsborough",
+      "callsign": "K1TLV",
+      "use": "CLOSED",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 443.8,
+      "offset": "+",
+      "access": {
+        "tone": 141.3
+      },
+      "state": "NH",
+      "location": "Keene, WEKW Tower",
+      "county": "Cheshire",
+      "callsign": "WA1ZYX",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 443.85,
+      "offset": "+",
+      "access": {
+        "NAC": "353",
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Epsom, Fort Mtn",
+      "county": "Merrimack",
+      "callsign": "W1ASS",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "P-25"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 443.95,
+      "offset": "+",
+      "access": {
+        "tone": 91.5
+      },
+      "state": "NH",
+      "location": "Stratford",
+      "county": "Coos",
+      "callsign": "KC1FZQ",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 443.95,
+      "offset": "+",
+      "access": {
+        "tone": 103.5
+      },
+      "state": "NH",
+      "location": "Claremont",
+      "county": "Sullivan",
+      "callsign": "KU1R",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Unknown"
+    },
+    {
+      "freq_mHz": 444.05,
+      "offset": "+",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Alton",
+      "county": "Belknap",
+      "callsign": "K1JEK",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 444.2,
+      "offset": "+",
+      "access": {
+        "tone": 186.2
+      },
+      "state": "NH",
+      "location": "Goffstown, Mt Uncanoonic",
+      "county": "Hillsborough",
+      "callsign": "NN1PA",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [
+        "WIRES-X"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 444.25,
+      "offset": "+",
+      "access": {
+        "tone": 107.2
+      },
+      "state": "NH",
+      "location": "Hollis",
+      "county": "Hillsborough",
+      "callsign": "N1IMO",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 444.4,
+      "offset": "+",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Kensington, Weymouth Hill",
+      "county": "Rockingham",
+      "callsign": "W1WQM",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 444.7,
+      "offset": "+",
+      "access": {
+        "tone": 123.0
+      },
+      "state": "NH",
+      "location": "Gilford, Mt Rowe",
+      "county": "Belknap",
+      "callsign": "W1BST",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 444.75,
+      "offset": "+",
+      "access": {
+        "tone": 123.0
+      },
+      "state": "NH",
+      "location": "New Durham",
+      "county": "Strafford",
+      "callsign": "W1WU",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 444.8,
+      "offset": "+",
+      "access": {
+        "tone": 131.8
+      },
+      "state": "NH",
+      "location": "Nashua",
+      "county": "Hillsborough",
+      "callsign": "N1IMO",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 444.85,
+      "offset": "+",
+      "access": {
+        "tone": 141.3
+      },
+      "state": "NH",
+      "location": "Lancaster",
+      "county": "Coos",
+      "callsign": "KC1SR",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "AllStar"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 444.9,
+      "offset": "+",
+      "access": {
+        "CC": "8",
+        "tone": 131.8
+      },
+      "state": "NH",
+      "location": "Enfield",
+      "county": "Grafton",
+      "callsign": "KA1UAG",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "DMR"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 444.95,
+      "offset": "+",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Hanover",
+      "county": "Grafton",
+      "callsign": "W1ET",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "IRLP"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 446.375,
+      "offset": "-",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Derry",
+      "county": "Rockingham",
+      "callsign": "KB1TIX",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 446.425,
+      "offset": "-",
+      "access": {
+        "CC": "5"
+      },
+      "state": "NH",
+      "location": "Acworth",
+      "county": "Sullivan",
+      "callsign": "WX1NH",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "DMR"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 446.475,
+      "offset": "-",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Center Barnstead",
+      "county": "Belknap",
+      "callsign": "K1DED",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "EchoLink"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 446.825,
+      "offset": "-",
+      "access": {
+        "tone": 97.4
+      },
+      "state": "NH",
+      "location": "Ossipee",
+      "county": "Carroll",
+      "callsign": "W1WU",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 446.875,
+      "offset": "-",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "North Conway",
+      "county": "Carroll",
+      "callsign": "W1MWV",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 447.125,
+      "offset": "-",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Mont Vernon",
+      "county": "Hillsborough",
+      "callsign": "WA1HCO",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "AllStar"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 447.325,
+      "offset": "-",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Bow, Quimby Mtn",
+      "county": "Merrimack",
+      "callsign": "KA1SU",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 447.375,
+      "offset": "-",
+      "access": {
+        "tone": 85.4
+      },
+      "state": "NH",
+      "location": "Derry",
+      "county": "Rockingham",
+      "callsign": "K1QVC",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 447.425,
+      "offset": "-",
+      "access": {
+        "tone": 141.3
+      },
+      "state": "NH",
+      "location": "Peterborough, Temple Mtn",
+      "county": "Hillsborough",
+      "callsign": "WA1ZYX",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 447.475,
+      "offset": "-",
+      "access": {
+        "CC": "5",
+        "tone": 107.2
+      },
+      "state": "NH",
+      "location": "Newmarket, Four Corners",
+      "county": "Rockingham",
+      "callsign": "KC1AWV",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "DMR",
+        "M17"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 448.225,
+      "offset": "-",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Berlin, Mt Washington",
+      "county": "Coos",
+      "callsign": "WA1PBJ",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 448.425,
+      "offset": "-",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Mont Vernon",
+      "county": "Hillsborough",
+      "callsign": "K3RQ",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 448.525,
+      "offset": "-",
+      "access": {
+        "tone": 123.0
+      },
+      "state": "NH",
+      "location": "Greenfield",
+      "county": "Hillsborough",
+      "callsign": "KA1BBG",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Unknown"
+    },
+    {
+      "freq_mHz": 448.675,
+      "offset": "-",
+      "access": {},
+      "state": "NH",
+      "location": "Bow, Bow Bog Hill",
+      "county": "Merrimack",
+      "callsign": "KB1IIT",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 448.775,
+      "offset": "-",
+      "access": {
+        "CC": "2"
+      },
+      "state": "NH",
+      "location": "North Conway",
+      "county": "Carroll",
+      "callsign": "W1MWV",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "DMR",
+        "Fusion"
+      ],
+      "features": [],
+      "status": "Unknown"
+    },
+    {
+      "freq_mHz": 448.825,
+      "offset": "-",
+      "access": {
+        "tone": 131.8
+      },
+      "state": "NH",
+      "location": "Pelham",
+      "county": "Hillsborough",
+      "callsign": "N1CML",
+      "use": "OPEN",
+      "modes": [
+        "FM",
+        "Fusion"
+      ],
+      "features": [
+        "WIRES-X"
+      ],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 448.975,
+      "offset": "-",
+      "access": {
+        "tone": 141.3
+      },
+      "state": "NH",
+      "location": "Gorham, Mt Washington",
+      "county": "Coos",
+      "callsign": "W1NH",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 449.225,
+      "offset": "-",
+      "access": {
+        "tone": 103.5
+      },
+      "state": "NH",
+      "location": "New Boston",
+      "county": "Hillsborough",
+      "callsign": "W1NAZ",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 449.275,
+      "offset": "-",
+      "access": {
+        "tone": 100.0
+      },
+      "state": "NH",
+      "location": "Greenville",
+      "county": "Hillsborough",
+      "callsign": "N3LEE",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 449.325,
+      "offset": "-",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Loudon",
+      "county": "Merrimack",
+      "callsign": "W1FKF",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 449.375,
+      "offset": "-",
+      "access": {
+        "tone": 88.5
+      },
+      "state": "NH",
+      "location": "Peterborough, Pack Monadnock Mtn",
+      "county": "Hillsborough",
+      "callsign": "N1IMO",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 449.45,
+      "offset": "-",
+      "access": {
+        "tone": 123.0
+      },
+      "state": "NH",
+      "location": "Deerfield, WENH Tower",
+      "county": "Rockingham",
+      "callsign": "WA1ZYX",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 449.625,
+      "offset": "-",
+      "access": {
+        "tone": 85.4
+      },
+      "state": "NH",
+      "location": "Derry",
+      "county": "Rockingham",
+      "callsign": "K1CA",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 449.775,
+      "offset": "-",
+      "access": {},
+      "state": "NH",
+      "location": "Salem",
+      "county": "Rockingham",
+      "callsign": "NY1Z",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [],
+      "status": "Up"
+    },
+    {
+      "freq_mHz": 449.825,
+      "offset": "-",
+      "access": {
+        "tone": 82.5
+      },
+      "state": "NH",
+      "location": "Whitefield",
+      "county": "Coos",
+      "callsign": "N1PCE",
+      "use": "OPEN",
+      "modes": [
+        "FM"
+      ],
+      "features": [
+        "AllStar"
+      ],
+      "status": "Up"
+    }
+  ]
+}
