@@ -29,106 +29,154 @@ class GQRX():
 
     def get_response(self):
         """ Get Response """
-        return self.client.recv(64).decode().strip()
+        data = self.client.recv(64).decode().strip()
+        if len(data) == 0:
+            raise ConnectionAbortedError
+        return data
 
     def status(self):
         """ Check for status """
-        data = self.get_response()
-        if data == "RPRT 0":
-            return True
-        if data == "RPRT 1":
-            return False
+        try:
+            data = self.get_response()
+            if data == "RPRT 0":
+                return True
+            if data == "RPRT 1":
+                return False
+        except Exception as ex:
+            raise ex
         raise ValueError(data)
 
     def get_freq(self):
         """ Get Frequency """
-        self.client.send(b"f\n")
-        data = self.get_response()
-        return int(data)
+        try:
+            self.client.send(b"f\n")
+            data = self.get_response()
+            return int(data)
+        except Exception as ex:
+            raise ex
 
     def set_freq(self,freq):
         """ Set Frequency """
-        cmd = "F %d\n" % freq
-        self.client.send(cmd.encode())
-        return self.status()
+        try:
+            cmd = "F %d\n" % freq
+            self.client.send(cmd.encode())
+            return self.status()
+        except Exception as ex:
+            raise ex
 
     def get_gain(self):
         """ Get Audio Gain """
-        self.client.send(b"l AF\n")
-        data = self.get_response()
-        return int(data)
+        try:
+            self.client.send(b"l AF\n")
+            data = self.get_response()
+            return int(data)
+        except Exception as ex:
+            raise ex
 
     def set_gain(self,gain):
         """ Set Audio Gain """
-        cmd = "L AF %f\n" % gain
-        self.client.send(cmd.encode())
-        return self.status()
+        try:
+            cmd = "L AF %f\n" % gain
+            self.client.send(cmd.encode())
+            return self.status()
+        except Exception as ex:
+            raise ex
 
     def get_demod_mode(self):
         """ Get Demodulator Mode """
-        cmd = "m\n"
-        self.client.send(cmd.encode())
-        data = self.get_response()
-        return str(data)
+        try:
+            cmd = "m\n"
+            self.client.send(cmd.encode())
+            data = self.get_response()
+            return str(data)
+        except Exception as ex:
+            raise ex
 
     def set_demod_mode(self, mode):
         """ Set Demodulator Mode """
         if mode not in self.demod_modes:
             raise ValueError("Unsupported Demod Mode")
 
-        cmd = "M %s\n" % mode
-        self.client.send(cmd.encode())
-        return self.status()
+        try:
+            cmd = "M %s\n" % mode
+            self.client.send(cmd.encode())
+            return self.status()
+        except Exception as ex:
+            raise ex
 
     def get_signal_strength(self):
         """ Get Signal Strength """
-        self.client.send(b"l STRENGTH\n")
-        data = self.get_response()
-        return float(data)
+        try:
+            self.client.send(b"l STRENGTH\n")
+            data = self.get_response()
+            return float(data)
+        except Exception as ex:
+            raise ex
 
     def get_squelch(self):
         """ Get Squelch Threshold """
-        cmd = "l SQL\n"
-        self.client.send(cmd.encode())
-        data = self.get_response()
-        return float(data)
+        try:
+            cmd = "l SQL\n"
+            self.client.send(cmd.encode())
+            data = self.get_response()
+            return float(data)
+        except Exception as ex:
+            raise ex
 
     def set_squelch(self, dbfs):
         """ Set Squelch Threshold """
-        cmd = "L SQL %s\n" % dbfs
-        self.client.send(cmd.encode())
-        return self.status()
+        try:
+            cmd = "L SQL %s\n" % dbfs
+            self.client.send(cmd.encode())
+            return self.status()
+        except Exception as ex:
+            raise ex
 
     def get_record(self):
         """ Get Recorder Status """
-        cmd = "u RECORD\n"
-        self.client.send(cmd.encode())
-        data = self.get_response()
-        return str(data)
+        try:
+            cmd = "u RECORD\n"
+            self.client.send(cmd.encode())
+            data = self.get_response()
+            return str(data)
+        except Exception as ex:
+            raise ex
 
     def set_record(self, status):
         """ Set Recorder Status """
-        cmd = "U RECORD %s\n" % status
-        self.client.send(cmd.encode())
-        return self.status()
+        try:
+            cmd = "U RECORD %s\n" % status
+            self.client.send(cmd.encode())
+            return self.status()
+        except Exception as ex:
+            raise ex
 
     def close(self):
         """ Close Connection """
-        cmd = "c\n"
-        self.client.send(cmd.encode())
-        return self.status()
+        try:
+            cmd = "c\n"
+            self.client.send(cmd.encode())
+            return self.status()
+        except Exception as ex:
+            raise ex
 
     def aos(self):
         """ Acquisition of Signal """
-        cmd = "AOS\n"
-        self.client.send(cmd.encode())
-        return self.status()
+        try:
+            cmd = "AOS\n"
+            self.client.send(cmd.encode())
+            return self.status()
+        except Exception as ex:
+            raise ex
 
     def los(self):
         """ Loss of Signal """
-        cmd = "LOS\n"
-        self.client.send(cmd.encode())
-        return self.status()
+        try:
+            cmd = "LOS\n"
+            self.client.send(cmd.encode())
+            return self.status()
+        except Exception as ex:
+            raise ex
 
 if __name__ == "__main__":
     mygqrx = GQRX()

@@ -12,7 +12,11 @@ import gqrx
 
 def scan_list(filename, step_hz=1e3, threshold_db=-40, dwell_sec=0.1, pause_sec=1, demod='FM'):
     """ Demo Code for Scanning """
-    mysdr = gqrx.GQRX()
+    try:
+        mysdr = gqrx.GQRX()
+    except ConnectionRefusedError:
+        print("Is GQRX running?")
+        sys.exit(1)
 
     # Set up the radio
     mysdr.set_demod_mode(demod)
@@ -30,7 +34,7 @@ def scan_list(filename, step_hz=1e3, threshold_db=-40, dwell_sec=0.1, pause_sec=
             last_load = mtime
 
         try:
-            for station in stations['data']:
+            for station in stations['stations']:
                 if demod not in station['modes']:
                     continue
 
@@ -54,7 +58,7 @@ def scan_list(filename, step_hz=1e3, threshold_db=-40, dwell_sec=0.1, pause_sec=
                     print("%s %0.6f %0.1f dB %s %s" % (datetime.now().isoformat(), freq/1e6, st_dbfs, station['location'], station['callsign']))
                     time.sleep(pause_sec)
 
-        except KeyboardInterrupt:
+        except (KeyboardInterrupt, ConnectionAbortedError):
             break
 
 if __name__ == "__main__":
